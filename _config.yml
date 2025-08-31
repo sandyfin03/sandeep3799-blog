@@ -1,28 +1,26 @@
-title: "Sandeep — PhD Scholar, IIT (ISM) Dhanbad"
-description: "Investor Sentiment · Crypto Adoption · Portfolio Optimization"
-
-url: "https://sandyfin03.github.io"
-baseurl: "/sandeep3799-blog"   # important for project pages
-
-remote_theme: "mmistakes/minimal-mistakes"
-
-plugins:
-  - jekyll-remote-theme
-  - jekyll-seo-tag
-  - jekyll-feed
-  - jekyll-sitemap
-
 author:
-  name: "Sandeep"
-  avatar: "/assets/img/Sandeep_Photo.jpg"
-  bio: "PhD Scholar at IIT (ISM) Dhanbad"
-
-navigation:
-  - title: "Research"
-    url: /research/
-  - title: "Blog"
-    url: /blog/
-  - title: "Teaching"
-    url: /teaching/
-  - title: "CV"
-    url: /assets/cv/CV-Sandeep.pdf
+  name: "Sandeep Singh"
+  avatar: "/assets/img/bio-photo.jpg"  # Upload a professional headshot (e.g., 200x200)
+  bio: "PhD Research Scholar at IIT (ISM) Dhanbad, specializing in deep learning for finance, crypto policy, and reproducible research."
+  location: "Dhanbad, India"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/sandyfin03"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/sandeep-singh-85664b265"
+    - label: "ORCID"
+      icon: "ai ai-orcid"
+      url: "https://orcid.org/0009-0005-6386-3342"
+    - label: "Google Scholar"
+      icon: "ai ai-google-scholar"
+      url: "https://scholar.google.com/citations?user=your-real-id"  # Replace YOURID with actual ID
+    - label: "Curriculum Vitae"
+      icon: "fas fa-fw fa-file-pdf"
+      url: "/assets/files/CV-Sandeep.pdf"
+defaults:
+  - scope:
+      path: ""
+    values:
+      author_profile: true  # Shows sidebar on all pages
