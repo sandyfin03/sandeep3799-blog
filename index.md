@@ -10,14 +10,14 @@ header:
     - label: "Read the Blog"
       url: /blog/
     - label: "Download CV"
-      url: /assets/cv/Sandeep_CV.pdf
+      url: /assets/files/CV-Sandeep.pdf   # ✅ ensure correct path
 excerpt: "PhD Research Scholar at IIT (ISM) Dhanbad. I write about deep learning for finance, crypto policy, and reproducible research."
 feature_row:
   - image_path: /assets/img/feature-research.jpg
     alt: "Research"
     title: "Research"
-    excerpt: "Time series, LSTM/ARIMA hybrids, crypto markets, and policy."
-    url: "/pages/research/"
+    excerpt: "Investor Sentiment, Crypto Adoption, Portfolio Optimization."
+    url: "/research/"   # ✅ cleaner permalink
     btn_label: "Explore"
     btn_class: "btn--primary"
   - image_path: /assets/img/feature-blog.jpg
@@ -31,7 +31,7 @@ feature_row:
     alt: "Teaching"
     title: "Teaching"
     excerpt: "Workshops, guest lectures, and course materials."
-    url: "/pages/teaching/"
+    url: "/teaching/"   # ✅ cleaner permalink
     btn_label: "View"
     btn_class: "btn--primary"
 ---
