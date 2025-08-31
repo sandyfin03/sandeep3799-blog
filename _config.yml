@@ -1,14 +1,14 @@
 title: "Sandeep — PhD Scholar, IIT (ISM) Dhanbad"
 name: "Sandeep"
-email: "your.email@iitism.ac.in"
+email: "sandeep.s.fin03@gmail.com"
 description: "Personal research blog and academic profile — IIT (ISM) Dhanbad."
-url: "" # e.g. https://<username>.github.io
-baseurl: "" # e.g. /repo-name
-repository: ""
+url: "https://sandyfin03.github.io"   # replace with your actual GitHub Pages URL
+baseurl: "" 
+repository: "sandyfin03/sandyfin03.github.io"
 
 # Minimal Mistakes settings
-remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default" # options: default, air, aqua, contrast, dark, dirt, neon, mint, plume, sunrise
+remote_theme: mmistakes/minimal-mistakes@4.24.0   # ✅ use versioned remote theme
+minimal_mistakes_skin: "default" 
 locale: "en-IN"
 
 # Build settings
@@ -27,33 +27,42 @@ paginate_path: "/blog/page:num/"
 
 # Author profile
 author:
-  name: "Sandeep"
-  avatar: "/assets/img/profile.jpg"
-  bio: "PhD Research Scholar in [IIT (ISM) Dhanbad](https://www.iitism.ac.in). Interests: FinTech, Crypto, Forecasting (LSTM/ARIMA)."
+  name: "Sandeep Singh"
+  avatar: "/assets/img/profile.jpg"   # upload profile photo in this path
+  bio: "PhD Research Scholar at IIT (ISM) Dhanbad. Research: FinTech, Crypto, Forecasting (LSTM/ARIMA)."
   location: "Dhanbad, India"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:your.email@iitism.ac.in"
+      url: "mailto:sandeep.s.fin03@gmail.com"
+    - label: "Phone"
+      icon: "fas fa-fw fa-phone"
+      url: "tel:+917007720434"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/your-username"
-    - label: "Google Scholar"
-      icon: "ai ai-google-scholar ai-fw"
-      url: "https://scholar.google.com/"
+      url: "https://github.com/sandyfin03"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/your-handle/"
+      url: "https://www.linkedin.com/in/sandeep-singh-85664b265"
+    - label: "ORCID"
+      icon: "ai ai-orcid"
+      url: "https://orcid.org/0009-0005-6386-3342"
+    - label: "Google Scholar"
+      icon: "ai ai-google-scholar ai-fw"
+      url: "https://scholar.google.com/citations?user=YOURID"   # replace with your scholar ID
 
 # Footer
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/your-username"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-x-twitter"
-      url: "https://x.com/your-handle"
+      url: "https://github.com/sandyfin03"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/sandeep-singh-85664b265"
+    - label: "ORCID"
+      icon: "ai ai-orcid"
+      url: "https://orcid.org/0009-0005-6386-3342"
 
 # Collections (optional pages)
 collections:
@@ -81,9 +90,6 @@ defaults:
 # SEO
 seo:
   type: "Person"
-
-# Analytics (optional)
-# google_analytics: G-XXXXXXXXXX
 
 # Sitemap
 timezone: "Asia/Kolkata"
