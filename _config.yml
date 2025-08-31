@@ -29,7 +29,7 @@ paginate_path: "/blog/page:num/"
 author:
   name: "Sandeep Singh"
   avatar: "/assets/img/Sandeep_Photo.jpg"   # uploaded photo path
-  bio: "PhD Research Scholar at IIT (ISM) Dhanbad. Research: FinTech, Crypto, Forecasting (LSTM/ARIMA)."
+  bio: "PhD Research Scholar at IIT (ISM) Dhanbad. Research: Investor Sentiment, Crypto Adoption, Portfolio Optimizations, Price Forecasting ."
   location: "Dhanbad, India"
   links:
     - label: "Email"
