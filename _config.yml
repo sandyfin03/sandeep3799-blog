@@ -2,13 +2,13 @@ title: "Sandeep — PhD Scholar, IIT (ISM) Dhanbad"
 name: "Sandeep"
 email: "sandeep.s.fin03@gmail.com"
 description: "Personal research blog and academic profile — IIT (ISM) Dhanbad."
-url: "https://sandyfin03.github.io"   # replace with your actual GitHub Pages URL
+url: "https://sandyfin03.github.io"   # GitHub Pages URL
 baseurl: "" 
 repository: "sandyfin03/sandyfin03.github.io"
 
-# Minimal Mistakes settings
-remote_theme: mmistakes/minimal-mistakes@4.24.0   # ✅ use versioned remote theme
-minimal_mistakes_skin: "default" 
+# Theme settings
+remote_theme: mmistakes/minimal-mistakes@4.24.0   # versioned remote theme
+minimal_mistakes_skin: "default"
 locale: "en-IN"
 
 # Build settings
@@ -28,7 +28,7 @@ paginate_path: "/blog/page:num/"
 # Author profile
 author:
   name: "Sandeep Singh"
-  avatar: "/assets/img/profile.jpg"   # upload profile photo in this path
+  avatar: "/assets/img/Sandeep_Photo.jpg"   # uploaded photo path
   bio: "PhD Research Scholar at IIT (ISM) Dhanbad. Research: FinTech, Crypto, Forecasting (LSTM/ARIMA)."
   location: "Dhanbad, India"
   links:
@@ -49,7 +49,10 @@ author:
       url: "https://orcid.org/0009-0005-6386-3342"
     - label: "Google Scholar"
       icon: "ai ai-google-scholar ai-fw"
-      url: "https://scholar.google.com/citations?user=YOURID"   # replace with your scholar ID
+      url: "https://scholar.google.com/citations?user=YOURID"   # replace with actual ID
+    - label: "Curriculum Vitae"
+      icon: "fas fa-fw fa-file-pdf"
+      url: "/assets/files/CV-Sandeep.pdf"
 
 # Footer
 footer:
@@ -63,6 +66,12 @@ footer:
     - label: "ORCID"
       icon: "ai ai-orcid"
       url: "https://orcid.org/0009-0005-6386-3342"
+    - label: "Google Scholar"
+      icon: "ai ai-google-scholar ai-fw"
+      url: "https://scholar.google.com/citations?user=YOURID"
+    - label: "Curriculum Vitae"
+      icon: "fas fa-fw fa-file-pdf"
+      url: "/assets/files/CV-Sandeep.pdf"
 
 # Collections (optional pages)
 collections:
